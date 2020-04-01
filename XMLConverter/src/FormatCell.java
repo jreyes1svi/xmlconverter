@@ -15,7 +15,7 @@ public class FormatCell {
 		} else if (type == CellType.BLANK) {
 			return null;
 		} else if (type == CellType.ERROR) {
-			return "*sample*";
+			return "*error*";
 		} else if (type == CellType.NUMERIC) {
 			return df.format(cell.getNumericCellValue());
 		} else
