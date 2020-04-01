@@ -6,6 +6,7 @@ public class FormatElement {
 		xml.append(tag);
 		if (value != null && value.length() > 0) {
 			xml.append(">");
+			// asddsa
 			xml.append(value);
 			xml.append("</");
 			xml.append(tag);
